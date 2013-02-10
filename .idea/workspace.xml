@@ -9,6 +9,8 @@
     <file path="/PlayingCardDeckTest.m" changelist="5875b288-a26b-4344-b94f-34e5242e3a2c" time="1360506550613" ignored="false" />
     <file path="/CardGameController.m" changelist="5875b288-a26b-4344-b94f-34e5242e3a2c" time="1360506622470" ignored="false" />
     <file path="/CardGameControllerTest.m" changelist="5875b288-a26b-4344-b94f-34e5242e3a2c" time="1360507554891" ignored="false" />
+    <file path="/CardTest.m" changelist="5875b288-a26b-4344-b94f-34e5242e3a2c" time="1360521547631" ignored="false" />
+    <file path="/Card.m" changelist="5875b288-a26b-4344-b94f-34e5242e3a2c" time="1360522029017" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,19 +27,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_6.1_1" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CardGameController.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matchismo/Controller/CardGameController.m">
+      <file leaf-file-name="PlayingCard.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Matchismo/Model/PlayingCard.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="4" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state line="19" column="13" selection-start="336" selection-end="336" vertical-scroll-proportion="0.34673366">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardGameController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matchismo/Controller/CardGameController.h">
+      <file leaf-file-name="PlayingCardDeckTest.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/PlayingCardDeckTest.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="46" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayingCardTest.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/PlayingCardTest.m">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -48,27 +57,34 @@
       <file leaf-file-name="PlayingCardDeck.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Matchismo/Model/PlayingCardDeck.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="22" column="16" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardGameControllerTest.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MatchismoTests/Controller/CardGameControllerTest.m">
+      <file leaf-file-name="Card.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Matchismo/Model/Card.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="67" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.559464">
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state line="12" column="0" selection-start="160" selection-end="233" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayingCardDeckTest.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/PlayingCardDeckTest.m">
+      <file leaf-file-name="CardTest.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/CardTest.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="46" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
+            <state line="34" column="0" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeckTest.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/DeckTest.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="50" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,6 +105,8 @@
         <option value="$PROJECT_DIR$/MatchismoTests/Model/PlayingCardDeckTest.m" />
         <option value="$PROJECT_DIR$/MatchismoTests/Controller/CardGameControllerTest.m" />
         <option value="$PROJECT_DIR$/Matchismo/Controller/CardGameController.m" />
+        <option value="$PROJECT_DIR$/MatchismoTests/Model/CardTest.m" />
+        <option value="$PROJECT_DIR$/Matchismo/Model/Card.m" />
       </list>
     </option>
   </component>
@@ -245,20 +263,32 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/OCMock" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="MatchismoTests" />
   </component>
-  <component name="RunManager" selected="OCUnit.All in CardGameControllerTest">
-    <configuration default="false" name="Matchismo" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="Matchismo" PROJECT_NAME="Matchismo" TARGET_NAME="Matchismo" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Matchismo" RUN_TARGET_NAME="Matchismo" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+  <component name="RunManager" selected="OCUnit.MatchismoTests">
+    <configuration default="false" name="-[CardTest testShouldKnowCardCannotMatchNilCardList]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="-[CardTest testShouldKnowCardCannotMatchNilCardList]" PROJECT_NAME="Matchismo" TARGET_NAME="MatchismoTests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_CLASS="CardTest" TEST_METHOD="testShouldKnowCardCannotMatchNilCardList">
       <envs />
       <RunnerSettings RunnerId="AppRunner" />
       <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="-[CardGameControllerTest testShouldNotDrawRandomCardWhenCardIsFlippedDown]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="-[CardGameControllerTest testShouldNotDrawRandomCardWhenCardIsFlippedDown]" PROJECT_NAME="Matchismo" TARGET_NAME="MatchismoTests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_CLASS="CardGameControllerTest" TEST_METHOD="testShouldNotDrawRandomCardWhenCardIsFlippedDown">
+    <configuration default="false" name="-[CardTest testShouldMatchCardWhenCardListContainsCardWithSameContent]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="-[CardTest testShouldMatchCardWhenCardListContainsCardWithSameContent]" PROJECT_NAME="Matchismo" TARGET_NAME="MatchismoTests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_CLASS="CardTest" TEST_METHOD="testShouldMatchCardWhenCardListContainsCardWithSameContent">
       <envs />
       <RunnerSettings RunnerId="AppRunner" />
       <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="All in CardGameControllerTest" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="All in CardGameControllerTest" PROJECT_NAME="Matchismo" TARGET_NAME="MatchismoTests" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_CLASS="CardGameControllerTest">
+    <configuration default="false" name="-[CardTest testShouldKnowCardCannotBeEqualToADifferentObject]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="-[CardTest testShouldKnowCardCannotBeEqualToADifferentObject]" PROJECT_NAME="Matchismo" TARGET_NAME="MatchismoTests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_CLASS="CardTest" TEST_METHOD="testShouldKnowCardCannotBeEqualToADifferentObject">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="-[CardTest testShouldKnowCardHashEqualsContentsHash]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="-[CardTest testShouldKnowCardHashEqualsContentsHash]" PROJECT_NAME="Matchismo" TARGET_NAME="MatchismoTests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_CLASS="CardTest" TEST_METHOD="testShouldKnowCardHashEqualsContentsHash">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in CardTest" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="All in CardTest" PROJECT_NAME="Matchismo" TARGET_NAME="MatchismoTests" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_CLASS="CardTest">
       <envs />
       <RunnerSettings RunnerId="AppRunner" />
       <ConfigurationWrapper RunnerId="AppRunner" />
@@ -278,18 +308,21 @@
       <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.Matchismo" />
-      <item index="1" class="java.lang.String" itemvalue="OCUnit.MatchismoTests" />
-      <item index="2" class="java.lang.String" itemvalue="OCUnit.-[CardGameControllerTest testShouldNotDrawRandomCardWhenCardIsFlippedDown]" />
-      <item index="3" class="java.lang.String" itemvalue="OCUnit.All in CardGameControllerTest" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="OCUnit.MatchismoTests" />
+      <item index="1" class="java.lang.String" itemvalue="OCUnit.-[CardTest testShouldKnowCardCannotMatchNilCardList]" />
+      <item index="2" class="java.lang.String" itemvalue="OCUnit.-[CardTest testShouldMatchCardWhenCardListContainsCardWithSameContent]" />
+      <item index="3" class="java.lang.String" itemvalue="OCUnit.-[CardTest testShouldKnowCardCannotBeEqualToADifferentObject]" />
+      <item index="4" class="java.lang.String" itemvalue="OCUnit.-[CardTest testShouldKnowCardHashEqualsContentsHash]" />
+      <item index="5" class="java.lang.String" itemvalue="OCUnit.All in CardTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="OCUnit.All in CardGameControllerTest" />
-        <item index="1" class="java.lang.String" itemvalue="OCUnit.-[CardGameControllerTest testShouldNotDrawRandomCardWhenCardIsFlippedDown]" />
-        <item index="2" class="java.lang.String" itemvalue="OCUnit.All in CardGameControllerTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Matchismo" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="OCUnit.All in CardTest" />
+        <item index="1" class="java.lang.String" itemvalue="OCUnit.All in CardTest" />
+        <item index="2" class="java.lang.String" itemvalue="OCUnit.-[CardTest testShouldKnowCardHashEqualsContentsHash]" />
+        <item index="3" class="java.lang.String" itemvalue="OCUnit.All in CardTest" />
+        <item index="4" class="java.lang.String" itemvalue="OCUnit.All in CardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -409,23 +442,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Matchismo/Model/PlayingCardDeck.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Matchismo/Controller/CardGameController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/PlayingCardDeckTest.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="46" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -445,6 +464,62 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="6" selection-start="4460" selection-end="4460" vertical-scroll-proportion="0.3321918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/DeckTest.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="50" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/CardTest.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matchismo/Model/Card.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="160" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matchismo/Model/PlayingCardDeck.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="16" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/PlayingCardTest.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/PlayingCardDeckTest.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="46" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matchismo/Model/PlayingCard.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="336" selection-end="336" vertical-scroll-proportion="0.34673366">
+          <folding />
         </state>
       </provider>
     </entry>
