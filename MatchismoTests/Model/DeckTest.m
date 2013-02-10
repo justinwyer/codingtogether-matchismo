@@ -19,9 +19,9 @@
 
 @implementation DeckTest
 
-- (void)testShouldKnowHowToInitDeck {
+- (void)testShouldCardsOnFirstGet {
     Deck *deck = [Deck new];
-    STAssertNotNil(deck.cards, @"Cards should not be nil on init");
+    STAssertNotNil(deck.cards, @"Cards should not be nil on first get");
 }
 
 - (void)testShouldKnowDeckIsEmptyOnInit {
@@ -42,7 +42,7 @@
     [cardsMock verify];
 }
 
-- (void)testShouldKnowCardsCanBeAddedToTopOdDeck {
+- (void)testShouldKnowCardsCanBeAddedToTopOfDeck {
     Deck *deck = [Deck new];
     Card *card = [[Card alloc] initWithContents:@"Test Card"];
 

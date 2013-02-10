@@ -11,6 +11,7 @@
     <file path="/CardGameControllerTest.m" changelist="5875b288-a26b-4344-b94f-34e5242e3a2c" time="1360507554891" ignored="false" />
     <file path="/CardTest.m" changelist="5875b288-a26b-4344-b94f-34e5242e3a2c" time="1360521547631" ignored="false" />
     <file path="/Card.m" changelist="5875b288-a26b-4344-b94f-34e5242e3a2c" time="1360522029017" ignored="false" />
+    <file path="/DeckTest.m" changelist="5875b288-a26b-4344-b94f-34e5242e3a2c" time="1360525016280" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +28,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_6.1_1" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PlayingCard.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PlayingCard.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Matchismo/Model/PlayingCard.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="336" selection-end="336" vertical-scroll-proportion="0.34673366">
+            <state line="19" column="13" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,6 +73,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Deck.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Matchismo/Model/Deck.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="16" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CardTest.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/CardTest.m">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,10 +91,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeckTest.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Deck.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Matchismo/Model/Deck.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="14" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeckTest.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/DeckTest.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="50" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="693" selection-end="1394" vertical-scroll-proportion="0.30150753">
               <folding />
             </state>
           </provider>
@@ -107,6 +126,7 @@
         <option value="$PROJECT_DIR$/Matchismo/Controller/CardGameController.m" />
         <option value="$PROJECT_DIR$/MatchismoTests/Model/CardTest.m" />
         <option value="$PROJECT_DIR$/Matchismo/Model/Card.m" />
+        <option value="$PROJECT_DIR$/MatchismoTests/Model/DeckTest.m" />
       </list>
     </option>
   </component>
@@ -414,13 +434,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Matchismo/AppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.51369864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Matchismo/Matchismo-Info.plist">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="11" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.5276382">
@@ -474,27 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/DeckTest.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="50" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/CardTest.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Matchismo/Model/Card.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="160" selection-end="233" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Matchismo/Model/PlayingCardDeck.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="16" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
@@ -518,7 +510,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Matchismo/Model/PlayingCard.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="336" selection-end="336" vertical-scroll-proportion="0.34673366">
+        <state line="19" column="13" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/CardTest.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matchismo/Model/Deck.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="14" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matchismo/Model/Deck.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matchismo/Model/Card.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="160" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatchismoTests/Model/DeckTest.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="693" selection-end="1394" vertical-scroll-proportion="0.30150753">
           <folding />
         </state>
       </provider>
